@@ -18,3 +18,5 @@ set inccommand=split
 let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
 
+let NERDTreeShowHidden=1
+
