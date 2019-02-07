@@ -20,3 +20,5 @@ nnoremap <leader>; A;<esc>
 
 let NERDTreeShowHidden=1
 
+set tabstop=2 shiftwidth=2 expandtab
+
