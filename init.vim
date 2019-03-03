@@ -5,6 +5,8 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 else
@@ -25,6 +27,8 @@ set inccommand=split
 
 let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
+map <Enter> o<ESC>
+map <S-Enter> O<ESC>
 
 let NERDTreeShowHidden=1
 
