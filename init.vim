@@ -36,3 +36,6 @@ set tabstop=2 shiftwidth=2 expandtab
 
 let g:deoplete#enable_at_startup = 1
 let g:jedi#documentation_command = "K"
+
+" always open split in the right side
+set splitright
